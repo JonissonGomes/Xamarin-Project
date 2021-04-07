@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_Project.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#7E57C2" Padding="40"  CornerRadius="0">
+            <Label Text="Bem vindos" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Somos o Me Empresta" FontSize="Title" HorizontalTextAlignment="Center" Padding="30,20,30,5" />
+        <Label Text="Chegou o novo jeito de ter uma renda extra, emprestanto o que você não utiliza!!" HorizontalTextAlignment="Center" FontSize="16" Padding="30,0,30,0"/>
+        <Label Text="Como deseja ser chamado?" FontSize="Title" HorizontalTextAlignment="Center" Padding="30,20,30,5" />
+        
+        
+        <Entry x:Name="username"  Placeholder="Digite seu nome" Margin="50,0,50,0" />
+        <Button Text="Continuar" Padding="8,10,8,10" Margin="60,0,60,10" BackgroundColor="#7E57C2" TextColor="White" Clicked="Mostrar"/>
+        
+        <Label x:Name="response" HorizontalTextAlignment="Center" TextColor="#7E57C2" FontSize="26" Margin="20" />
+
+    </StackLayout>
+
+</ContentPage>
