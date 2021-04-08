@@ -20,5 +20,11 @@ namespace Xamarin_Project
             var Username = username.Text;
             response.Text = "Bem vindo, " + username.Text + "!";
         }
+
+        void Limpar(object sender, EventArgs e) {
+
+            username.Text = " ";
+            response.Text = " ";
+        }
     }
 }
